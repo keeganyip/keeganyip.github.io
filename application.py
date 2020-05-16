@@ -9,12 +9,12 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/shopindex')
-def shopIndex():
-    return render_template('shopindex.html')
-
 @app.route('/shop')
 def shop():
+    return render_template('shopindex.html')
+
+@app.route('/shopIndex')
+def shopIndex():
     return render_template('shop.html')
 
 if __name__ == '__main__':
