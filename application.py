@@ -10,7 +10,7 @@ def home():
 
 
 @app.route('/shopindex')
-def shop():
+def shopIndex():
     return render_template('shopindex.html')
 
 @app.route('/shop')
